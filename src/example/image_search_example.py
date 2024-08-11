@@ -75,7 +75,7 @@ if hwnd == 0:
     print("Window not found")
 else:
     # Path to the template image
-    template_path = '../../../birds/blue_gem.png'
+    template_path = '../../birds/blue_gem.png'
     for i in range(20):
         find_and_click(hwnd, template_path)
         time.sleep(1)
